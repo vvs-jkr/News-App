@@ -19,7 +19,6 @@ export interface NewsApiResponse {
 export type SkeletonType = 'banner' | 'item'
 export type DirectionType = 'row' | 'column'
 
-
 export interface CategoriesApiResponse {
   categories: CategoriesType[]
   description: string
