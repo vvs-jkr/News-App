@@ -9,7 +9,7 @@ import { getNews } from '../../api/apiNews'
 import PaginationWrapper from '../PaginationWrapper/PaginationWrapper'
 import { NewsApiResponse, ParamsType } from '../../interfaces'
 
-const NewsByFilters = ({}) => {
+const NewsByFilters = () => {
   const { filters, changeFilter } = useFilters({
     page_number: 1,
     page_size: PAGE_SIZE,
