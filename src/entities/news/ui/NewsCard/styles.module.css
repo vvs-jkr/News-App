@@ -1,8 +1,11 @@
-.item {
+.card {
   display: flex;
   width: 100%;
   gap: 12px;
-  align-items: center;
+}
+
+.banner {
+  flex-direction: column;
 }
 
 .title {
